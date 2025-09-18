@@ -41,6 +41,7 @@ class ReturnDateString:
         return random.random()
 
 class ApplyHaldClut:
+    #TODO confirm licence
     def __init__(self):
         pass
 
@@ -118,7 +119,8 @@ class RealGrainAndAutocontrast:
     CATEGORY = "✨ PersonalPostProc"
 
     def film_grain(self, image, intensity: float, sharpening_factor: float):
-        grain = Image.open('/var/home/user/stabdif/ComfyUI/custom_nodes/aaaa-WIP_comfy_postproc/assets/grain.png').convert('RGB')
+        grain_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), "assets")
+        grain = Image.open(os.path.join(grain_path, "grain.png")).convert('RGB')
 
         batch_size, height, width, _ = image.shape
         result = torch.zeros_like(image)
