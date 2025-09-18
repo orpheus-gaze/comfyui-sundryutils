@@ -41,7 +41,7 @@ class ReturnDateString:
         return random.random()
 
 class ApplyHaldClut:
-    #TODO confirm licence
+    # Adapted from https://kevinmartinjose.com/2021/04/27/film-simulations-from-scratch-using-python/, I hope this is okay.
     def __init__(self):
         pass
 
