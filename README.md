@@ -9,7 +9,7 @@ This node returns a date string which comfyui can parse to create folder structu
 
 ### ✨ Sharpen, RealGrain & Autocontrast
 ![Comparison of no grain and grain!](/readme_img/compare_nofilter_grain.png "To the left no grain and to the right with applied grain")
-This node overlays an image of real grain on top of your image, this is much less computationally expensive than nodes that create grain on the fly per run and also produces more accurate grain. It also gives the option to add some sharpening and contrast to offset the darkening by the addition of the grain. Add this or a similar extracted grain image directly inside the `assets` folder: [https://www.flickr.com/photos/patdavid/7314861896](https://www.flickr.com/photos/patdavid/7314861896).
+This node overlays an image of real grain on top of your image, this is much less computationally expensive than nodes that create grain on the fly per run and also produces more accurate grain. It also gives the option to add some sharpening and contrast to offset the darkening by the addition of the grain. Add this or a similar extracted grain image by renaming it to `grain.png` and placing it directly inside the `assets` folder: [https://www.flickr.com/photos/patdavid/7314861896](https://www.flickr.com/photos/patdavid/7314861896).
 
 
 ### ✨ Apply HaldClut
