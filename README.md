@@ -18,3 +18,6 @@ Finally there is a HaldClut applicator which adds a LUT of different simulations
 
 ### Order of application
 As described to me the general order of post-processing application is generally grain and sharpening first and colour correction later, so apply the sharpening first and the LUT second. Adding grain also helps if you add it prior to upscaling in image to image.
+
+## Installation
+To install this node go to the `custom_nodes` folder in your comfyui installation and do the command `git clone https://github.com/orpheus-gaze/comfyui-sundryutils.git`. There are no requirements that aren't already included in the default comfyui installation, but you will have to provide the LUTs and grain image as linked in the previous section by placing them in the `assets` folder. I hope you will enjoy it, I have found that adding the grain especially adds a decent improvement in realism in generated "photos".
